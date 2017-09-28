@@ -27,9 +27,6 @@ class AirTest(unittest.TestCase):
         self.assertEqual(title,u'机票预订')
 
 
-
-
-
     def setDown(self):
         self.driver.close()
 
