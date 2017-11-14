@@ -39,13 +39,13 @@ class BaiDuTest(unittest.TestCase):
         self.driver.quit()
 
 class Nba(unittest.TestCase):
-    #NBA测试
+    '''NBA测试'''
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.base_url = 'http://www.baidu.com'
 
     def test_nba(self):
-        #nba
+        '''nba'''
         print("nba测试开始")
         driver=self.driver
         driver.get(self.base_url)
@@ -81,4 +81,4 @@ if __name__ == '__main__':
     runner=HTMLTestRunner(stream=fp,title=u'百度搜索测试报告',description=u'用例执行情况：')
 
     runner.run(suite)
-    fp.close()
+    #fp.close()
