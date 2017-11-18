@@ -68,7 +68,7 @@ if __name__ == '__main__':
     suite.addTest(BaiDuTest("test_baidu"))
     suite.addTest(Nba("test_nba"))
     now = time.strftime("%Y-%m-%d %H_%M_%S")
-    print"执行到了"
+    print"执行到了，完美！"
     #filename = r"D:\\jieguo.html"
     filename="D:\\result\\result"+now+".html"
     #filename = "./result" + now + ".html"
